@@ -1,0 +1,43 @@
+key: value
+"key with quotes" : "value with quotes"
+323: 2242
+special_chars: "special:characters"
+single quotes: 'a value ''in'' single quotes \n'
+double quotes: "\u263A \u263B \n"
+
+array (sequence):
+  - hello
+  - world
+json array: [hello,world]
+numbers: 00
+boolean: true
+null: null
+also null: ~
+
+object (maps):
+    key: value
+    another: value
+    nested object: 
+        nested key: values
+sequence:
+    - Item 1
+    - Item 2
+    - 0.5
+    - key : value
+      another key: value
+    - - nested array Item
+      - nested array Item 2
+
+literal block: |
+  first line
+
+
+
+  second line 
+
+folded block: >
+  first line
+
+
+
+  second line 

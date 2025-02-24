@@ -1,0 +1,16 @@
+{
+    "name": "yaml-to-json",
+    "version": "1.0.0",
+    "description": "",
+    "main": "convert.js",
+    "scripts": {
+        "start": "nodemon convert.js --ignore 'output.json' --watch 'input.yaml'"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "js-yaml": "^4.1.0",
+        "nodemon": "^2.0.22"
+    }
+}
